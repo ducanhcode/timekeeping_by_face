@@ -1,0 +1,9 @@
+Dataset/FaceData/processed\DucAnh\z6033216266411_1456b78cff71ea2c46e61fd9554e42a0.png 302 766 1140 1836
+Dataset/FaceData/processed\DucAnh\z6033216234915_e78da6249ab6dbda19e0019f3d6cf98b.png 262 738 1081 1809
+Dataset/FaceData/processed\DucAnh\z6033216237947_1ea3be2547c5eb925fa809c41ed232e9.png 292 663 1154 1827
+Dataset/FaceData/processed\DucAnh\z6033216264963_5b84e81901c55e3ba99031377bba2561.png 126 762 911 1757
+Dataset/FaceData/processed\DucAnh\z6033216261793_ccd96076af2ca092ad7c1187b58f71ce.png 280 786 1084 1826
+Dataset/FaceData/processed\NhatDang\e8c05b24-7972-4ac6-9125-57f467a78383.png 476 579 1073 1392
+Dataset/FaceData/processed\NhatDang\fdd54295-0657-4c39-b3bb-d24581d2461c.png 441 376 1209 1390
+Dataset/FaceData/processed\NhatDang\7c625744-4374-4a5e-a4f2-ffa6e7b76253.png 392 435 1208 1596
+Dataset/FaceData/processed\NhatDang\f90030f1-40aa-4183-aedb-ee52727802f0.png 392 594 1143 1592

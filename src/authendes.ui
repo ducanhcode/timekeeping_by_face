@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>354</width>
+    <height>278</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>301</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox {
+    background: qlineargradient(
+        spread:pad, 
+        x1:0, y1:0, x2:1, y2:1, 
+        stop:0 #b3c2d4,   /*  (trái trên) */
+        stop:0.5 #8597a8, /*  (giữa) */
+        stop:1 #546677    /* (phải dưới) */
+    );
+    border: 1px solid #A9A9A9; /* Viền xám nhạt */
+    border-radius: 10px; /* Góc bo tròn */
+    color: #000; /* Màu chữ đen */
+    font-weight: bold; /* Chữ in đậm */
+    padding: 10px; /* Khoảng cách nội bộ */
+}
+</string>
+    </property>
+    <property name="title">
+     <string>GroupBox</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>61</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Tài Khoản</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>60</y>
+       <width>61</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Mật Khẩu</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>30</y>
+       <width>181</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>70</y>
+       <width>181</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>110</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: qlineargradient(
+    spread:pad, 
+    x1:0, y1:0, x2:0, y2:1, 
+    stop:0 #ffffff, /* Trắng mờ hơn ở trên */
+    stop:1 #e2d9d9  /* Trắng mờ hơn ở dưới */
+);
+border: 1px solid rgba(200, 200, 200, 0.6); /* Viền xám mờ */
+border-radius: 5px; /* Góc bo tròn */
+color: #000; /* Chữ màu đen */
+font-weight: bold; /* Chữ in đậm */
+padding: 5px; /* Khoảng cách nội bộ */
+</string>
+     </property>
+     <property name="text">
+      <string>Đăng Nhập</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>150</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: qlineargradient(
+    spread:pad, 
+    x1:0, y1:0, x2:0, y2:1, 
+    stop:0 #ffffff, /* Trắng mờ hơn ở trên */
+    stop:1 #e2d9d9  /* Trắng mờ hơn ở dưới */
+);
+border: 1px solid rgba(200, 200, 200, 0.6); /* Viền xám mờ */
+border-radius: 5px; /* Góc bo tròn */
+color: #000; /* Chữ màu đen */
+font-weight: bold; /* Chữ in đậm */
+padding: 5px; /* Khoảng cách nội bộ */
+</string>
+     </property>
+     <property name="text">
+      <string>Đăng Ký</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>354</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

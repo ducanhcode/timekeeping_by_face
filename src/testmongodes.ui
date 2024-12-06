@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>735</width>
+    <height>681</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #ddf4ff;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>691</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: qlineargradient(
+    spread:pad, 
+    x1:0, y1:0, x2:1, y2:1, 
+    stop:0 #eeeeee, /* Màu xám rất nhạt */
+    stop:1 #d4d4d4  /* Màu xám nhạt */
+);
+border: 1px solid #C0C0C0; /* Viền xám nhạt */
+border-radius: 5px; /* Góc bo tròn */
+padding: 10px; /* Khoảng cách nội bộ */
+</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>321</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: qlineargradient(
+    spread:pad, 
+    x1:0, y1:0, x2:0, y2:1, 
+    stop:0 #dfdfdf, /* Màu xanh nhạt ở trên */
+    stop:1 #558aad  /* Màu xanh đậm ở dưới */
+);
+border: 1px solid #357ABD; /* Viền xanh đậm */
+border-radius: 5px; /* Góc bo tròn */
+padding: 10px; /* Khoảng cách nội bộ */
+</string>
+     </property>
+     <property name="title">
+      <string>Checkin</string>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: qlineargradient(
+    spread:pad, 
+    x1:0, y1:0, x2:1, y2:1, 
+    stop:0 #cfcfcf, /* Màu xanh dương đậm */
+    stop:1 #ffffff /* Màu xanh dương nhạt */
+);
+border: 1px solid #357ABD; /* Viền xanh đậm */
+border-radius: 5px; /* Góc bo tròn */
+color: black; /* Chữ màu trắng */
+font-weight: bold; /* Chữ in đậm */
+padding: 5px; /* Khoảng cách nội bộ */
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Họ Và Tên:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>60</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>10</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: qlineargradient(
+    spread:pad, 
+    x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(255, 255, 255, 0.8), /* Trắng mờ hơn ở trên */
+    stop:1 rgba(255, 255, 255, 0.4)  /* Trắng mờ hơn ở dưới */
+);
+border: 1px solid rgba(200, 200, 200, 0.6); /* Viền xám mờ */
+border-radius: 5px; /* Góc bo tròn */
+color: #000; /* Chữ màu đen */
+font-weight: bold; /* Chữ in đậm */
+padding: 5px; /* Khoảng cách nội bộ */
+</string>
+      </property>
+      <property name="text">
+       <string>Check  In</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>30</y>
+       <width>311</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: qlineargradient(
+    spread:pad, 
+    x1:0, y1:0, x2:0, y2:1, 
+    stop:0 #e6e6e6, /* Màu xanh nhạt ở trên */
+    stop:1 #6bb0da  /* Màu xanh đậm ở dưới */
+);
+border: 1px solid #357ABD; /* Viền xanh đậm */
+border-radius: 5px; /* Góc bo tròn */
+padding: 10px; /* Khoảng cách nội bộ */
+</string>
+     </property>
+     <property name="title">
+      <string>CheckOut</string>
+     </property>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: qlineargradient(
+    spread:pad, 
+    x1:0, y1:0, x2:1, y2:1, 
+    stop:0 #cfcfcf, /* Màu xanh dương đậm */
+    stop:1 #ffffff /* Màu xanh dương nhạt */
+);
+border: 1px solid #357ABD; /* Viền xanh đậm */
+border-radius: 5px; /* Góc bo tròn */
+color: black; /* Chữ màu trắng */
+font-weight: bold; /* Chữ in đậm */
+padding: 5px; /* Khoảng cách nội bộ */
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Họ Và Tên:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>10</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: qlineargradient(
+    spread:pad, 
+    x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(255, 255, 255, 0.8), /* Trắng mờ hơn ở trên */
+    stop:1 rgba(255, 255, 255, 0.4)  /* Trắng mờ hơn ở dưới */
+);
+border: 1px solid rgba(200, 200, 200, 0.6); /* Viền xám mờ */
+border-radius: 5px; /* Góc bo tròn */
+color: #000; /* Chữ màu đen */
+font-weight: bold; /* Chữ in đậm */
+padding: 5px; /* Khoảng cách nội bộ */
+</string>
+      </property>
+      <property name="text">
+       <string>Check Out</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_3">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>59</y>
+        <width>171</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>160</y>
+       <width>651</width>
+       <height>421</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    background-image: url(&quot;C:/Users/ASUS/Pictures/khung3up.jpg&quot;); /* Đường dẫn tới hình ảnh */
+    background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+    background-position: center; /* Hình ảnh căn giữa */
+    border: none; /* Loại bỏ viền mặc định */
+    padding: 20px; /* Khoảng cách giữa chữ và viền */
+    color: #000; /* Màu chữ đen */
+    font-weight: bold; /* Chữ in đậm */
+    text-align: center; /* Căn chữ giữa */
+}
+</string>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>170</y>
+       <width>627</width>
+       <height>401</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>735</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

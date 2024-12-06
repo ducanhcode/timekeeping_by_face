@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>337</width>
+    <height>339</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color:#e8e8e8;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>291</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox {
+    background: qlineargradient(
+        spread:pad, 
+        x1:0, y1:0, x2:1, y2:1, 
+        stop:0 #3cacd0,   /*  (trái trên) */
+        stop:0.5 #7ec8e0, /*  (giữa) */
+        stop:1 #0083ab    /* (phải dưới) */
+    );
+    border: 1px solid #A9A9A9; /* Viền xám nhạt */
+    border-radius: 10px; /* Góc bo tròn */
+    color: #000; /* Màu chữ đen */
+    font-weight: bold; /* Chữ in đậm */
+    padding: 10px; /* Khoảng cách nội bộ */
+}
+</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>70</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: qlineargradient(
+    spread:pad, 
+    x1:0, y1:0, x2:0, y2:1, 
+    stop:0 #d4ecf4, /* Trắng mờ hơn ở trên */
+    stop:1 #a6d9e9  /* Trắng mờ hơn ở dưới */
+);
+border: 1px solid rgba(200, 200, 200, 0.6); /* Viền xám mờ */
+border-radius: 5px; /* Góc bo tròn */
+color: #000; /* Chữ màu đen */
+font-weight: bold; /* Chữ in đậm */
+padding: 5px; /* Khoảng cách nội bộ */
+</string>
+     </property>
+     <property name="text">
+      <string>Chấm Công</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>130</y>
+       <width>191</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: qlineargradient(
+    spread:pad, 
+    x1:0, y1:0, x2:0, y2:1, 
+    stop:0 #cde9f3, /* Trắng mờ hơn ở trên */
+    stop:1 #a6d9e9  /* Trắng mờ hơn ở dưới */
+);
+border: 1px solid rgba(200, 200, 200, 0.6); /* Viền xám mờ */
+border-radius: 5px; /* Góc bo tròn */
+color: #000; /* Chữ màu đen */
+font-weight: bold; /* Chữ in đậm */
+padding: 5px; /* Khoảng cách nội bộ */
+</string>
+     </property>
+     <property name="text">
+      <string>Cập Nhật Thông Tin</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>190</y>
+       <width>211</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: qlineargradient(
+    spread:pad, 
+    x1:0, y1:0, x2:0, y2:1, 
+    stop:0 #cde9f3, /* Trắng mờ hơn ở trên */
+    stop:1 #a6d9e9  /* Trắng mờ hơn ở dưới */
+);
+border: 1px solid rgba(200, 200, 200, 0.6); /* Viền xám mờ */
+border-radius: 5px; /* Góc bo tròn */
+color: #000; /* Chữ màu đen */
+font-weight: bold; /* Chữ in đậm */
+padding: 5px; /* Khoảng cách nội bộ */
+</string>
+     </property>
+     <property name="text">
+      <string>Thêm Dữ Liệu Chấm Công</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>10</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: qlineargradient(
+    spread:pad, 
+    x1:0, y1:0, x2:0, y2:1, 
+    stop:0 #cde9f3, /* Trắng mờ hơn ở trên */
+    stop:1 #a6d9e9  /* Trắng mờ hơn ở dưới */
+);
+border: 1px solid rgba(200, 200, 200, 0.6); /* Viền xám mờ */
+border-radius: 5px; /* Góc bo tròn */
+color: #000; /* Chữ màu đen */
+font-weight: bold; /* Chữ in đậm */
+padding: 5px; /* Khoảng cách nội bộ */
+</string>
+     </property>
+     <property name="text">
+      <string>Xin Phép</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>337</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
